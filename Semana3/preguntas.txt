@@ -1,0 +1,50 @@
+1. Número de personas en cada nivel.
+
+2. Cantidad de dinero total destinadoa a todos los puestos.
+
+3. Cantidad de dinero total que se le da a cada puesto.
+
+4. Ver cuantos puestos en comun hay (ejem. Cordinador/a general A,B,C,... )
+
+5. Diferencia de sueldo base entre los diferentes puestos
+
+6. Direrencia entre Sueldo Mensual Bruto y Sueldo Mensual Neto.
+
+7. Sueldo base Mínimo
+
+8. Sueldo base Máximo
+
+9. ¿Cuanto dinero se gasta en total de impuesto mensual entre todos los Puestos?
+
+10. ¿Cuanto dinero es gastado en es ISSSTE entre todos los puestos?
+
+
+
+1. Disminucion del Salario mínimo entre 2010 al 2018.
+2.Tasa de cambio del salario mínimo. 
+
+
+
+1. Temperatura media sólo en los municipios de Guanajuato en cada año.
+
+2. Temperatura media promedio en todo Guanajuato en 2018 y 2019. Despues comparar el cambio en los años.
+
+3. Estados con las temperaturas más altas en 2018.
+
+4. Estados donde hay hubo presipitación en cada año.
+
+5. Municipios de Guanajuato donde hubo menos precipitación en 2018 y 2019.
+
+6. Diferencia en la temperatura maxima y minima en Léon Guanajuato entre 2018 y 2019. 
+
+7. Ciuidades sin precipitación (0.0) en 2018 y en 2019.
+
+8. Ciuidades sin precipitación (0.0) en los dos años seguidos.
+
+9.Cantidad de ciudades en las que se midió la temperatura y precipitación en cada año.
+
+10. Ciudades que si las que si se midieron temperatura y precipitacion en 2018 y en 2019 no.
+
+11
+
+
