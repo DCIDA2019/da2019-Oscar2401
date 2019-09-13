@@ -1,0 +1,8 @@
+Ejercicioi (Ejercicio tomado de curso en Udacity):
+1.-Descarga el archivo http://video.udacity-data.com.s3.amazonaws.com/topher/2017/January/58733f30_weather-underground/weather-underground.csv
+2.-Responde a la siguientes preguntas:
+  - ¿Cuantos días ha llovido?
+  - ¿Cuál ha sido la temperatura máxima para días con neblina y dias sin neblina?
+  - ¿Cuál es la temperatura promedio durante fines de semana?
+  -¿Cuál es el promedio de la temperatura minima en días lluviosos que tienen una temperatura minima de 55 grados F?
+3.- Establece otras preguntas y a continuación respondelas. 
