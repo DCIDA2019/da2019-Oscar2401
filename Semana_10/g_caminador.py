@@ -12,7 +12,7 @@ from colossus.cosmology import cosmology
 def model(Om,b2,beta,k,z=0.57):
     cosmo = cosmology.setCosmology('planck15',)
     cosmo.Om0 = Om
-    return (1-beta)*b2**2*cosmo.matterPowerSpectrum(k,z) #función
+    return (1+beta)*b2**2*cosmo.matterPowerSpectrum(k,z) #función
 
 #==========================================================================
 #Funcion para calcular la chi cuadrada
@@ -103,8 +103,9 @@ def metrop_2(om_ini,b_ini,beta_ini,data,sigm,ite):
     plt.ylabel('b',fontsize=18)
     plt.xlabel('$\Omega_m$',fontsize=18)
     plt.title("Varios Caminadores",fontsize=18)
+    plt.savefig('caminadores.png')
     plt.show()
-
+    
     return  om, b, beta
 
 
@@ -125,9 +126,9 @@ cosmo = cosmology.setCosmology('planck15',)
 data = [k,pk,pk_err]
 
 sigma = 0.01
-om_ini = np.array([0.3,0.2,0.1])
-b_ini = np.array([0.5,0.3,0.4])
-beta_ini = np.array([0.5,0.1,0.3])
-ite = 30000
+om_ini = np.array([0.3,0.2,0.1,0.15])
+b_ini = np.array([0.5,0.3,0.4,0.6])
+beta_ini = np.array([0.5,0.1,0.3,0.2])
+ite = 50000
 
 om_2,b_2,beta_2= metrop_2(om_ini,b_ini,beta_ini,data,sigma,ite)
