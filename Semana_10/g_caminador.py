@@ -3,6 +3,7 @@ import math as mt
 import matplotlib.pyplot as plt
 import scipy 
 from scipy.integrate import trapz,simps
+import scipy.optimize as op
 from colossus.cosmology import cosmology
 
 # FUNCIONES A USAR:

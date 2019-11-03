@@ -1,0 +1,36 @@
+#Hector Gil Marin
+#June 2016
+
+This data correspond to the k-space analysis of the LOWZ and CMASS DR12 catalogues.
+
+If you use this data, please refer apporpiately to these papers,
+Pre-recon refers to http://adsabs.harvard.edu/doi/10.1093/mnras/stw1096
+Post-recon refers to http://adsabs.harvard.edu/doi/10.1093/mnras/stw1264
+
+LOWZ sample has a redshift range of 0.15<z<0.43 with an effective redshift of zeff=0.32
+CMASS sample has a redshift range of 0.43<z<0.7 with an effective redshift of zeff=0.57
+
+For both CMASS and LOWZ catalogues, the cosmology used for transforming redshfits into comoving distances is Om=0.31. This number applies as well to the mocks used to generate the covariance matrix, regardless of their true value of Om. 
+
+Each sub-folder contains:
+1. Data catalogues for the averaged weighted between NGC and SGC, along with their diagonal errorbars. 
+
+The number of k-bins is 53 for LOWZ and 55 for CMASS, from k=0.0015 to k=0.3 h/Mpc, with a logarithmic binning.
+This can be found in the files with the name "GilMarin_2016_ZZZZDR12_measurement_power_spectrum_XXXXX_YYYY_recon.txt"
+
+2. Best-fitting model performance presented in the paper.
+"GilMarin_2016_ZZZZDR12_bestfit_power_spectrum_XXXXX_YYYY_recon.txt"
+The post-recon besfit models corresopond to BAO analyses described in 1509.06373, and the pre-recon models correspond to RSD analysis described in 1509.06386
+
+3. Covariance matrix For P0-P2 and P0-Pmu2
+These covariances are (53*2)x(53*2) for LOWZ and (55*2)x(55*2) for CMASS.
+
+4. Window matrix
+These covariances are 53x1000 for LOWZ and 55x1000 for CMASS. There are 4 difference covariance matrix taking into acount the effect of the underlying monopole and quadrupole into the measured monopole and quadrupole: W00, W02, W20 and W22. 
+The way these window matrices should be applied to describe the effect of the window is described in Eq. 15 of 1509.06386 
+
+The rows correspond to the k-values of the data files, whereas the columns correspond to the k-values written in the GilMarin_2016_XXXXDR12_kinput_window.txt file
+
+In all cases, the errors and covariances have been computed using the Patchy mocks. 
+
+Any queries please email me to hector.gilmarin@lpnhe.in2p3.fr

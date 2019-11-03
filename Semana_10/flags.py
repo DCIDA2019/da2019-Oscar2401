@@ -78,8 +78,8 @@ flags = int(input('Escoge la cantidad de los primeros pasos a eliminar => '))
 omg_flg,b_flg,beta_flg, m = flags_data_1(om,b,beta,flags)
 
 pk_cmasdr12 = np.loadtxt('GilMarin_boss_data/post-recon/cmass/GilMarin_2016_CMASSDR12_measurement_monopole_post_recon.txt').T
-li = 20
-ls = len(pk_cmasdr12[0])-10
+li = 0
+ls = len(pk_cmasdr12[0])-0
 k, pk, pk_err = pk_cmasdr12[0][li:ls],pk_cmasdr12[1][li:ls],pk_cmasdr12[2][li:ls]
 
 
