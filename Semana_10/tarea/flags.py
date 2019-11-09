@@ -77,7 +77,7 @@ print('El número de pasos es', len(om[0]),'\n')
 flags = int(input('Escoge la cantidad de los primeros pasos a eliminar => '))
 omg_flg,b_flg,beta_flg, m = flags_data_1(om,b,beta,flags)
 
-pk_cmasdr12 = np.loadtxt('GilMarin_boss_data/post-recon/cmass/GilMarin_2016_CMASSDR12_measurement_monopole_post_recon.txt').T
+pk_cmasdr12 = np.loadtxt('/home/echeveste/Mis_trabajos/analisis_datos/da2019-Oscar2401/Semana_10/GilMarin_boss_data/post-recon/cmass/GilMarin_2016_CMASSDR12_measurement_monopole_post_recon.txt').T
 li = 0
 ls = len(pk_cmasdr12[0])-0
 k, pk, pk_err = pk_cmasdr12[0][li:ls],pk_cmasdr12[1][li:ls],pk_cmasdr12[2][li:ls]

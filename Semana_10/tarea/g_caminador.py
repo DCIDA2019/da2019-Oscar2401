@@ -114,7 +114,7 @@ def metrop_2(om_ini,b_ini,beta_ini,data,sigm,ite):
 
 #==========================================================================
 #Cargamos los datos:
-pk_cmasdr12 = np.loadtxt('GilMarin_boss_data/post-recon/cmass/GilMarin_2016_CMASSDR12_measurement_monopole_post_recon.txt').T
+pk_cmasdr12 = np.loadtxt('/home/echeveste/Mis_trabajos/analisis_datos/da2019-Oscar2401/Semana_10/GilMarin_boss_data/post-recon/cmass/GilMarin_2016_CMASSDR12_measurement_monopole_post_recon.txt').T
 
 #Cortamos la cantidad de datos:
 li = 20
